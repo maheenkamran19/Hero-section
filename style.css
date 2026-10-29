@@ -24,14 +24,17 @@ header {
     width: 100%;
     height: 100%;
     border-bottom: 1px solid #e2dcdcf4;
-    align-content: center;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .left > img {
 width: 170px;
 height: 30px;
-padding-left: 40px;
+padding-left: 20px;
 }
 .green {
     background-color: #55b747;
@@ -44,7 +47,6 @@ padding-left: 40px;
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 30px;
-    margin-right: 20px;
 }
 .green:hover {
     background-color: #2a871e;
@@ -55,7 +57,6 @@ padding-left: 40px;
     font-weight: bold;
     font-size: 16px;
     border: none;
-    margin-right: 20px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 7px;
@@ -70,8 +71,6 @@ padding-left: 40px;
     border-radius: 30px;
     border: #d5cfcf7e 1px solid;
     color: rgb(112, 110, 110);
-    margin-right: 20px;
-    margin-left: 20px;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 5px;
@@ -80,7 +79,6 @@ padding-left: 40px;
 .tel1 {
     color: rgb(112, 109, 109);
     text-decoration: none;
-    margin-left: 20px;
 
 }
 .tel1:hover {
@@ -98,10 +96,12 @@ padding-left: 40px;
 .fa-cart-shopping:hover {
     color: #55b747;
 }
+.logo {
+    display: inline-block;
+}
 .down {
     width: 100%;
     height: 50%;
-    /* border: 1px solid; */
     border-bottom: 1px solid #e2dcdcf4;
     align-content: center;
     text-align: center;
